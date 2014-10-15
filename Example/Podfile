@@ -1,0 +1,8 @@
+source 'https://github.com/CocoaPods/Specs.git'
+
+
+target 'DZGeometryTools', :exclusive => true do
+  pod "DZGeometryTools", :path => "../"
+
+  
+end
