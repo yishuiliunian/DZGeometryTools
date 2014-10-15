@@ -9,16 +9,19 @@
 
 Pod::Spec.new do |s|
   s.name             = "DZGeometryTools"
-  s.version          = "1.0.0"
-  s.summary          = "几何关系库"
+  s.version          = "0.1.0"
+  s.summary          = "A short description of DZGeometryTools."
   s.description      = <<-DESC
-                       几何关系库，包括一些计算坐标的易用性函数和角度等的函数
+                       An optional longer description of DZGeometryTools
+
+                       * Markdown format.
+                       * Don't worry about the indent, we strip it!
                        DESC
-  s.homepage         = "https://github.com/yishuiliunian/DZGeometryTools"
+  s.homepage         = "https://github.com/<GITHUB_USERNAME>/DZGeometryTools"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "stonedong" => "yishuiliunian@gmail.com" }
-  s.source           = { :git => "https://github.com/yishuiliunian/DZGeometryTools.git", :tag => s.version.to_s }
+  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/DZGeometryTools.git", :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.platform     = :ios, '7.0'

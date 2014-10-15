@@ -1,0 +1,14 @@
+PODS:
+  - DZGeometryTools (0.1.0)
+
+DEPENDENCIES:
+  - DZGeometryTools (from `../`)
+
+EXTERNAL SOURCES:
+  DZGeometryTools:
+    :path: ../
+
+SPEC CHECKSUMS:
+  DZGeometryTools: ddd9eead23ebefd5a65f56b7702fcb24f8d85a0f
+
+COCOAPODS: 0.34.2
