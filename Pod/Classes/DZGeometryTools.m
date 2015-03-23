@@ -153,7 +153,7 @@ CGSize CGCurrentScreenSize()
 
 BOOL CGScrrentIsRetina()
 {
-    if ([UIScreen mainScreen].applicationFrame.size.width >= 640) {
+    if ([[UIScreen mainScreen] currentMode].size.width > 320) {
         return YES;
     }
     return NO;
