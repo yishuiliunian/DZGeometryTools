@@ -62,6 +62,10 @@ extern "C"
     BOOL UIDeviceISIphone5s();
     CGRect CGRectExpandPoint(CGPoint pint , CGSize aimSize);
     CGSize CGCurrentScreenSize();
+    BOOL CGScrrentIsRetina();
+    CGFloat CGPixMultiFactor();
+    CGSize CGCurrentRealPixSize();
+    
 #ifdef __cplusplus
 }
 #endif

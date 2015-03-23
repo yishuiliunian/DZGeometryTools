@@ -149,6 +149,29 @@ CGSize CGCurrentScreenSize()
 {
     return [[UIScreen mainScreen] applicationFrame].size;
 }
+
+
+BOOL CGScrrentIsRetina()
+{
+    if ([UIScreen mainScreen].applicationFrame.size.width >= 640) {
+        return YES;
+    }
+    return NO;
+}
+
+CGFloat CGPixMultiFactor()
+{
+    if (CGScrrentIsRetina()) {
+        return 2.0f;
+    }
+    return 1.0f;
+}
+
+CGSize CGCurrentRealPixSize()
+{
+    return CGSizeScale(CGCurrentScreenSize(), CGPixMultiFactor());
+}
+
 @implementation DZGeometryTools
 
 @end
