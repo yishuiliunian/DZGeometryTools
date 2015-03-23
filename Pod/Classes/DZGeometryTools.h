@@ -61,7 +61,7 @@ extern "C"
     NSString* DevicePlatfromString();
     BOOL UIDeviceISIphone5s();
     CGRect CGRectExpandPoint(CGPoint pint , CGSize aimSize);
-    CGSize CGFullScreenBackgroundSize();
+    CGSize CGCurrentScreenSize();
 #ifdef __cplusplus
 }
 #endif

@@ -145,7 +145,7 @@ CGRect CGRectCenter(CGRect rect, CGSize size)
     return CGRectMake((CGRectGetWidth(rect) - size.width) /2, (CGRectGetHeight(rect) - size.height) /2, size.width, size.height);
 }
 
-CGSize CGFullScreenBackgroundSize()
+CGSize CGCurrentScreenSize()
 {
     return [[UIScreen mainScreen] applicationFrame].size;
 }
