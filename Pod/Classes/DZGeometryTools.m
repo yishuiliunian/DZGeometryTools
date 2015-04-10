@@ -150,6 +150,13 @@ CGSize CGCurrentScreenSize()
     return [[UIScreen mainScreen] applicationFrame].size;
 }
 
+CGFloat CGRectHeightOffsetCenter(CGRect rect , CGFloat height) {
+    return CGRectGetMinY(rect) + (CGRectGetHeight(rect) - height)/2;
+}
+
+CGFloat CGRectWidthOffsetCenter(CGRect rect , CGFloat width) {
+    return CGRectGetMinX(rect) + (CGRectGetWidth(rect) - width)/2;
+}
 
 BOOL CGScrrentIsRetina()
 {

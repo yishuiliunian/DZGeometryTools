@@ -66,6 +66,10 @@ extern "C"
     CGFloat CGPixMultiFactor();
     CGSize CGCurrentRealPixSize();
     
+    //
+    CGFloat CGRectHeightOffsetCenter(CGRect rect , CGFloat height);
+    CGFloat CGRectWidthOffsetCenter(CGRect rect , CGFloat width);
+    
 #ifdef __cplusplus
 }
 #endif
