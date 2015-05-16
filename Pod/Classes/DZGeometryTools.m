@@ -91,7 +91,7 @@ BOOL NSRangeCotainsIndex(NSRange range, NSInteger index)
 
 CGRect CGRectOfCenterForContainsSize(CGRect rect , CGSize size)
 {
-    return CGRectMake((CGRectGetWidth(rect) - size.width)/2, (CGRectGetHeight(rect) - size.height) /2, size.width, size.height);
+    return CGRectMake(CGRectGetMinX(rect) + (CGRectGetWidth(rect) - size.width)/2, CGRectGetMinY(rect) + (CGRectGetHeight(rect) - size.height) /2, size.width, size.height);
 }
 
 void CGPrintRect(CGRect rect )
@@ -132,7 +132,7 @@ CGRect CGRectUseEdge(CGRect parent, UIEdgeInsets edge)
 
 CGPoint CGPointCenterRect(CGRect rect)
 {
-    return CGPointMake(CGRectGetMinX(rect) + CGRectGetWidth(rect)/2, CGRectGetMinY(rect) + CGRectGetHeight(rect)/2);
+    return CGPointMake(CGRectGetWidth(rect)/2, CGRectGetHeight(rect)/2);
 }
 
 float CGDistanceBetweenPoints(CGPoint p1, CGPoint p2)
@@ -142,7 +142,7 @@ float CGDistanceBetweenPoints(CGPoint p1, CGPoint p2)
 
 CGRect CGRectCenter(CGRect rect, CGSize size)
 {
-    return CGRectMake(CGRectGetMinX(rect) + (CGRectGetWidth(rect) - size.width) /2, CGRectGetMinY(rect) + (CGRectGetHeight(rect) - size.height) /2, size.width, size.height);
+    return CGRectMake((CGRectGetWidth(rect) - size.width) /2, (CGRectGetHeight(rect) - size.height) /2, size.width, size.height);
 }
 
 CGSize CGCurrentScreenSize()
@@ -182,4 +182,3 @@ CGSize CGCurrentRealPixSize()
 @implementation DZGeometryTools
 
 @end
-
