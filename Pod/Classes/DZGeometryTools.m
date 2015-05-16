@@ -179,6 +179,34 @@ CGSize CGCurrentRealPixSize()
     return CGSizeScale(CGCurrentScreenSize(), CGPixMultiFactor());
 }
 
+CGRect CGRectShrink(CGRect origin, CGFloat offset, CGRectEdge edge) {
+    CGRect rect = origin;
+    switch (edge) {
+        case CGRectMinYEdge:
+        {
+            rect.origin.y += offset;
+            rect.size.height -= offset;
+        }
+        case CGRectMinXEdge:
+        {
+            rect.origin.x += offset;
+            rect.size.width -= offset;
+        }
+        case CGRectMaxXEdge:
+        {
+            rect.size.width -= offset;
+        }
+        case CGRectMaxYEdge:
+        {
+            rect.size.height -= offset;
+        }
+            
+        default:
+            break;
+    }
+    return rect;
+    
+}
 @implementation DZGeometryTools
 
 @end
