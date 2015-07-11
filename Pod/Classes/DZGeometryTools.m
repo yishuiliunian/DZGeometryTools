@@ -186,19 +186,23 @@ CGRect CGRectShrink(CGRect origin, CGFloat offset, CGRectEdge edge) {
         {
             rect.origin.y += offset;
             rect.size.height -= offset;
+            break;
         }
         case CGRectMinXEdge:
         {
             rect.origin.x += offset;
             rect.size.width -= offset;
+            break;
         }
         case CGRectMaxXEdge:
         {
             rect.size.width -= offset;
+            break;
         }
         case CGRectMaxYEdge:
         {
             rect.size.height -= offset;
+            break;
         }
             
         default:
