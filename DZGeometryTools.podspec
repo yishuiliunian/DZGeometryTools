@@ -9,7 +9,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "DZGeometryTools"
-  s.version          = "1.1.0"
+  s.version          = "1.1.1"
   s.summary          = "几何关系库"
   s.description      = <<-DESC
                        几何关系库，包括一些计算坐标的易用性函数和角度等的函数
