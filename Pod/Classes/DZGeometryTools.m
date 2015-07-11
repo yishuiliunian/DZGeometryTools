@@ -207,6 +207,22 @@ CGRect CGRectShrink(CGRect origin, CGFloat offset, CGRectEdge edge) {
     return rect;
     
 }
-@implementation DZGeometryTools
 
-@end
+void CGRectHorizontalSplit(CGRect origin, CGRect* rects, int count, CGFloat space) {
+    if (count == 0) {
+        return;
+    }
+    CGFloat width = CGRectGetWidth(origin);
+    width -= space*(count-1);
+    CGFloat itemSize = width/count;
+    CGRect firstRect = CGRectMake(CGRectGetMinX(origin), CGRectGetMinY(origin), itemSize, CGRectGetHeight(origin));
+    for (int i = 0; i < count; i++) {
+        CGRect aim = rects[i];
+        CGRect origin = CGRectOffset(firstRect, itemSize*i + space*i, 0);
+        aim.origin.x = origin.origin.x;
+        aim.origin.y = origin.origin.y;
+        aim.size.width = origin.size.width;
+        aim.size.height = origin.size.height;
+    }
+}
+

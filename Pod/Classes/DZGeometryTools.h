@@ -151,6 +151,3 @@ view.frame = rect##view;
 
 #define LAYOUT_SUBVIEW_CENTER(view, refSV, xMargin ,yMargin)  view.frame = CGRectCenter(refSV.bounds, CGSizeMake(CGRectGetWidth(refSV.bounds) - xMargin*2,CGRectGetHeight(refSV.bounds) - yMargin*2));
 
-@interface DZGeometryTools : NSObject
-
-@end
