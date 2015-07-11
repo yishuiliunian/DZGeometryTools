@@ -7,7 +7,6 @@
 //
 
 #import <Foundation/Foundation.h>
-
 typedef NS_ENUM(NSInteger, DeviceName) {
     IPHONE_1,
     IPHONE_3,

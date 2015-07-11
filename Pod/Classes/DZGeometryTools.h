@@ -89,7 +89,7 @@ extern "C"
      *  @param count  数量
      *  @param space  间距
      */
-    void CGRectVerticalSplit(CGRect origin, CGRect rects[], int count, CGFloat space)
+    void CGRectVerticalSplit(CGRect origin, CGRect rects[], int count, CGFloat space);
     
     
 #ifdef __cplusplus
