@@ -71,6 +71,26 @@ extern "C"
     CGFloat CGRectWidthOffsetCenter(CGRect rect , CGFloat width);
     CGRect CGRectShrink(CGRect origin, CGFloat offset, CGRectEdge edge);
     
+    /**
+     *  将一个Rect横向切割成多个
+     *
+     *  @param origin 原始REct
+     *  @param rects  输出的rect们
+     *  @param count  数量
+     *  @param space  间距
+     */
+    void CGRectHorizontalSplit(CGRect origin, CGRect rects[], int count, CGFloat space);
+    
+    /**
+     *  将一个Rect垂直切割成多个
+     *
+     *  @param origin 原始REct
+     *  @param rects  输出的rect们
+     *  @param count  数量
+     *  @param space  间距
+     */
+    void CGRectVerticalSplit(CGRect origin, CGRect rects[], int count, CGFloat space)
+    
     
 #ifdef __cplusplus
 }

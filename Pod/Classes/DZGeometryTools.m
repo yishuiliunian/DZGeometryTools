@@ -212,7 +212,7 @@ CGRect CGRectShrink(CGRect origin, CGFloat offset, CGRectEdge edge) {
     
 }
 
-void CGRectHorizontalSplit(CGRect origin, CGRect* rects, int count, CGFloat space) {
+void CGRectHorizontalSplit(CGRect origin, CGRect rects[], int count, CGFloat space) {
     if (count == 0) {
         return;
     }
@@ -221,12 +221,29 @@ void CGRectHorizontalSplit(CGRect origin, CGRect* rects, int count, CGFloat spac
     CGFloat itemSize = width/count;
     CGRect firstRect = CGRectMake(CGRectGetMinX(origin), CGRectGetMinY(origin), itemSize, CGRectGetHeight(origin));
     for (int i = 0; i < count; i++) {
-        CGRect aim = rects[i];
         CGRect origin = CGRectOffset(firstRect, itemSize*i + space*i, 0);
-        aim.origin.x = origin.origin.x;
-        aim.origin.y = origin.origin.y;
-        aim.size.width = origin.size.width;
-        aim.size.height = origin.size.height;
+        rects[i].origin.x = origin.origin.x;
+        rects[i].origin.y = origin.origin.y;
+        rects[i].size.width = origin.size.width;
+        rects[i].size.height = origin.size.height;
+    }
+}
+
+
+void CGRectVerticalSplit(CGRect origin, CGRect rects[], int count, CGFloat space) {
+    if (count == 0) {
+        return;
+    }
+    CGFloat height = CGRectGetWidth(origin);
+    height -= space*(count-1);
+    CGFloat itemSize = height/count;
+    CGRect firstRect = CGRectMake(CGRectGetMinX(origin), CGRectGetMinY(origin), CGRectGetWidth(origin), height);
+    for (int i = 0; i < count; i++) {
+        CGRect origin = CGRectOffset(firstRect, 0 , itemSize*i + space*i);
+        rects[i].origin.x = origin.origin.x;
+        rects[i].origin.y = origin.origin.y;
+        rects[i].size.width = origin.size.width;
+        rects[i].size.height = origin.size.height;
     }
 }
 
