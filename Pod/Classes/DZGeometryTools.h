@@ -91,6 +91,20 @@ extern "C"
      */
     void CGRectVerticalSplit(CGRect origin, CGRect rects[], int count, CGFloat space);
     
+    /**
+     *  按照指定方向将一个Size偏移到参照Rect的对应位置
+     *
+     *  @param rect   参照Rect
+     *  @param size   需要偏移的Size
+     *  @param margin 中间的间距
+     *  @param edge   指定方向
+     *
+     *  @return 偏移好的Rect
+     */
+    CGRect CGRectCenterOffsetSize(CGRect rect, CGSize size, CGFloat margin,  CGRectEdge edge);
+    
+    CGSize CGSizeAlignWidth(CGSize size, CGFloat width);
+    CGSize CGSizeAlignHeight(CGSize size, CGFloat height);
     
 #ifdef __cplusplus
 }

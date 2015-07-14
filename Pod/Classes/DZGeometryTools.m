@@ -247,3 +247,58 @@ void CGRectVerticalSplit(CGRect origin, CGRect rects[], int count, CGFloat space
     }
 }
 
+
+
+
+CGRect CGRectCenterOffsetSize(CGRect rect, CGSize size, CGFloat margin,  CGRectEdge edge) {
+    CGRect aim;
+    aim.size = size;
+    switch (edge) {
+        case CGRectMaxXEdge:
+        {
+            aim.origin.x = CGRectGetMaxX(rect) + margin ;
+            aim.origin.y = CGRectHeightOffsetCenter(rect, size.height);
+        }
+            break;
+        case CGRectMaxYEdge:
+        {
+            aim.origin.x = CGRectWidthOffsetCenter(rect, size.width);
+            aim.origin.y = CGRectGetMaxY(rect) + margin;
+        }
+            break;
+            
+        case CGRectMinXEdge:{
+            aim.origin.x = CGRectGetMinX(rect) - margin - size.width;
+            aim.origin.y = CGRectHeightOffsetCenter(rect, size.height);
+        }
+            break;
+        case CGRectMinYEdge:{
+            aim.origin.x = CGRectWidthOffsetCenter(rect, size.width);
+            aim.origin.y = CGRectGetMinY(rect) - margin - size.height;
+        }
+            break;
+        default:
+            break;
+    }
+    
+    return aim;
+}
+
+CGSize CGSizeAlignWidth(CGSize size, CGFloat width){
+    CGSize aimSize;
+    aimSize.width = width;
+    if (width > 0) {
+        aimSize.height =  width / size.width * size.height;
+    }
+    return aimSize;
+}
+CGSize CGSizeAlignHeight(CGSize size, CGFloat height) {
+    CGSize aimSize;
+    aimSize.height = height;
+    if (height > 0) {
+        aimSize.width = height / size.height * size.width;
+    }
+    
+    return aimSize;
+}
+
