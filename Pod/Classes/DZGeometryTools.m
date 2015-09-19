@@ -142,7 +142,10 @@ float CGDistanceBetweenPoints(CGPoint p1, CGPoint p2)
 
 CGRect CGRectCenter(CGRect rect, CGSize size)
 {
-    return CGRectMake((CGRectGetWidth(rect) - size.width) /2, (CGRectGetHeight(rect) - size.height) /2, size.width, size.height);
+    return CGRectMake((CGRectGetMinX(rect) + CGRectGetWidth(rect) - size.width) /2,
+                      CGRectGetMinY(rect) + (CGRectGetHeight(rect) - size.height) /2,
+                      size.width,
+                      size.height);
 }
 
 CGSize CGCurrentScreenSize()
