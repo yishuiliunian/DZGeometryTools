@@ -232,15 +232,14 @@ void CGRectHorizontalSplit(CGRect origin, CGRect rects[], int count, CGFloat spa
     }
 }
 
-
 void CGRectVerticalSplit(CGRect origin, CGRect rects[], int count, CGFloat space) {
     if (count == 0) {
         return;
     }
-    CGFloat height = CGRectGetWidth(origin);
+    CGFloat height = CGRectGetHeight(origin);
     height -= space*(count-1);
     CGFloat itemSize = height/count;
-    CGRect firstRect = CGRectMake(CGRectGetMinX(origin), CGRectGetMinY(origin), CGRectGetWidth(origin), height);
+    CGRect firstRect = CGRectMake(CGRectGetMinX(origin), CGRectGetMinY(origin), CGRectGetWidth(origin), itemSize);
     for (int i = 0; i < count; i++) {
         CGRect origin = CGRectOffset(firstRect, 0 , itemSize*i + space*i);
         rects[i].origin.x = origin.origin.x;
