@@ -103,6 +103,16 @@ extern "C"
      */
     CGRect CGRectCenterOffsetSize(CGRect rect, CGSize size, CGFloat margin,  CGRectEdge edge);
     
+    /**
+     *  计算右下角的一个Rect
+     *
+     *  @param originRect 原始的Rect
+     *  @param size       需要承载的Rect的大小
+     *
+     *  @return 返回大小为size位于originRect右下角的Rect
+     */
+    CGRect CGRectBottomRightCorner(CGRect originRect,  CGSize size);
+    
     CGSize CGSizeAlignWidth(CGSize size, CGFloat width);
     CGSize CGSizeAlignHeight(CGSize size, CGFloat height);
     

@@ -304,3 +304,12 @@ CGSize CGSizeAlignHeight(CGSize size, CGFloat height) {
     return aimSize;
 }
 
+
+CGRect CGRectBottomRightCorner(CGRect originRect,  CGSize size) {
+    CGRect buttonRect;
+    buttonRect.origin.x = CGRectGetWidth(originRect) - size.width;
+    buttonRect.origin.y = CGRectGetHeight(originRect) - size.height;
+    buttonRect.size = size;
+    return buttonRect;
+};
+
