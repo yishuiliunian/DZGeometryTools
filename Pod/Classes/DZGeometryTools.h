@@ -69,6 +69,15 @@ extern "C"
     //
     CGFloat CGRectHeightOffsetCenter(CGRect rect , CGFloat height);
     CGFloat CGRectWidthOffsetCenter(CGRect rect , CGFloat width);
+    /**
+     *  按照指定方向对Rect进行压缩
+     *
+     *  @param origin 原始的Rect
+     *  @param offset 需要压缩的距离
+     *  @param edge   压缩方向
+     *
+     *  @return 压缩好的Rect
+     */
     CGRect CGRectShrink(CGRect origin, CGFloat offset, CGRectEdge edge);
     
     /**
