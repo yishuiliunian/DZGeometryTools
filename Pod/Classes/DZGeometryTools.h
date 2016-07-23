@@ -37,6 +37,15 @@ extern "C"
     void CGPrintRect(CGRect rect );
     void CGPrintPoint(CGPoint point);
     float CGDistanceBetweenPoints(CGPoint p1, CGPoint p2);
+    
+    /**
+     *  计算一个指定大小居中对齐时在指定区域的位置
+     *
+     *  @param rect 指定的区域
+     *  @param size 指定大小
+     *
+     *  @return 指定大小居中对齐时在指定区域的位置
+     */
     CGRect CGRectCenter(CGRect rect, CGSize size);
     CGPoint CGPointCenterRect(CGRect rect);
     CGRect CGRectUseEdge(CGRect parent, UIEdgeInsets edge);
@@ -44,6 +53,14 @@ extern "C"
     CATransform3D CATransform3DMakePerspective(CGPoint center, float disZ);
     
     
+    /**
+     *  减去一个指定的大小，并返回计算后的区域
+     *
+     *  @param rect 原始区域
+     *  @param size 需要减去的大小
+     *
+     *  @return 减去指定大小的区域
+     */
     CGRect CGRectCenterSubSize(CGRect rect, CGSize size);
     CGRect CGRectWithEdgeInsetsForRect(UIEdgeInsets edge, CGRect rect);
     CGPoint CGRectGetCenter(CGRect rect);
