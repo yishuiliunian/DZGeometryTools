@@ -142,6 +142,15 @@ extern "C"
     CGSize CGSizeAlignWidth(CGSize size, CGFloat width);
     CGSize CGSizeAlignHeight(CGSize size, CGFloat height);
     
+   static  inline CGRect CGRectAlignInterge(CGRect rect) {
+        CGRect aimRect = rect;
+        aimRect.size.width = floor(rect.size.width);
+        aimRect.size.height = floor(rect.size.height);
+        aimRect.origin.x = floor(rect.origin.x);
+        aimRect.origin.y = floor(aimRect.origin.y);
+        return aimRect;
+    }
+    
 #ifdef __cplusplus
 }
 #endif
