@@ -35,6 +35,8 @@ extern "C"
      *  @param rect 要打印的CGRect
      */
     void CGPrintRect(CGRect rect );
+    
+    void CGPrintKeyRect(NSString* prefixKey, CGRect rect );
     void CGPrintPoint(CGPoint point);
     float CGDistanceBetweenPoints(CGPoint p1, CGPoint p2);
     

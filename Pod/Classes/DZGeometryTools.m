@@ -98,6 +98,10 @@ void CGPrintRect(CGRect rect )
 {
     NSLog(@"rec--|origin x:%f |y:%f |width:%f | height:%f", CGRectGetMinX(rect), CGRectGetMinY(rect), CGRectGetWidth(rect), CGRectGetHeight(rect));
 }
+void CGPrintKeyRect(NSString* prefixKey, CGRect rect )
+{
+       NSLog(@"key:(%@) rec--|origin x:%f |y:%f |width:%f | height:%f",prefixKey, CGRectGetMinX(rect), CGRectGetMinY(rect), CGRectGetWidth(rect), CGRectGetHeight(rect));
+}
 
 void CGPrintPoint(CGPoint point) {
     NSLog(@"the point x:%f y:%f",point.x, point.y);
