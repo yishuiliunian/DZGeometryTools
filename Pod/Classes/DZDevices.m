@@ -105,7 +105,7 @@ NSString*  netDeviceMacAddress()
     }
     
     if (sysctl(mib, 6, buf, &len, NULL, 0) < 0) {
-        printf("Error: sysctl, take 2");
+        NSLog(@"Error: sysctl, take 2");
         return NULL;
     }
     
