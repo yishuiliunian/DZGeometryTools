@@ -317,3 +317,14 @@ CGRect CGRectBottomRightCorner(CGRect originRect,  CGSize size) {
     return buttonRect;
 };
 
+
+CGRect CGRectInitialCell()
+{
+    static CGRect rect;
+    static dispatch_once_t onceToken;
+    dispatch_once(&onceToken, ^{
+        rect = [UIScreen mainScreen].bounds;
+        rect.size.height = CGFLOAT_MAX;
+    });
+    return rect;
+}

@@ -144,6 +144,14 @@ extern "C"
     CGSize CGSizeAlignWidth(CGSize size, CGFloat width);
     CGSize CGSizeAlignHeight(CGSize size, CGFloat height);
     
+    /**
+     Cell初始化的时候的默认布局大小
+
+     @return Cell的默认布局大小
+     */
+    
+#define CGRectDefaultCell CGRectInitialCell()
+    CGRect CGRectInitialCell();
    static  inline CGRect CGRectAlignInterge(CGRect rect) {
         CGRect aimRect = rect;
         aimRect.size.width = floor(rect.size.width);
