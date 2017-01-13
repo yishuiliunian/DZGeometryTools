@@ -1,14 +1,16 @@
 PODS:
-  - DZGeometryTools (0.1.0)
+  - DZGeometryTools (1.1.7)
 
 DEPENDENCIES:
   - DZGeometryTools (from `../`)
 
 EXTERNAL SOURCES:
   DZGeometryTools:
-    :path: ../
+    :path: "../"
 
 SPEC CHECKSUMS:
-  DZGeometryTools: ddd9eead23ebefd5a65f56b7702fcb24f8d85a0f
+  DZGeometryTools: cb233d721a9a6bddcc0b744b1fa3539354f66ae4
 
-COCOAPODS: 0.34.2
+PODFILE CHECKSUM: 6dfd11e8f0475b34fb4da68543a367dec7938b7e
+
+COCOAPODS: 1.1.1

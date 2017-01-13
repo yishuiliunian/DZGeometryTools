@@ -1,1044 +1,504 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<plist version="1.0">
-<dict>
-	<key>archiveVersion</key>
-	<string>1</string>
-	<key>classes</key>
-	<dict/>
-	<key>objectVersion</key>
-	<string>46</string>
-	<key>objects</key>
-	<dict>
-		<key>005DB939F341E13169A69DED</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>C43EDBAF40DC8119F288E23E</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>02BF968E25509790603CC600</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>242F0D42899FC9186E20C070</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>CDA8BACE596A648B6D7A64BE</string>
-			<key>remoteInfo</key>
-			<string>DZGeometryTools</string>
-		</dict>
-		<key>0B9BAC611F9611832AFC7EF8</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>F0D1C16564B13EFC1F321C3E</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Frameworks</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>0F6AB10FC564E2AC3E4D0DA3</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.script.sh</string>
-			<key>path</key>
-			<string>Pods-DZGeometryTools-resources.sh</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>119F7DBF6DC04C86F8343B2C</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>2AFC11C7A170A31F71655546</string>
-				<string>55C483C87A87CCD25563D18A</string>
-				<string>2283927DF086A947A45ED490</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Products</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>1C93E0B04CC379FFC49BD699</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-DZGeometryTools-DZGeometryTools.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>1F225A96345EED8604279BAF</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>target</key>
-			<string>CDA8BACE596A648B6D7A64BE</string>
-			<key>targetProxy</key>
-			<string>02BF968E25509790603CC600</string>
-		</dict>
-		<key>2283927DF086A947A45ED490</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>libPods-DZGeometryTools-DZGeometryTools.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>242F0D42899FC9186E20C070</key>
-		<dict>
-			<key>attributes</key>
-			<dict>
-				<key>LastUpgradeCheck</key>
-				<string>0510</string>
-			</dict>
-			<key>buildConfigurationList</key>
-			<string>6B734D1DEF0922C6DAEA329C</string>
-			<key>compatibilityVersion</key>
-			<string>Xcode 3.2</string>
-			<key>developmentRegion</key>
-			<string>English</string>
-			<key>hasScannedForEncodings</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXProject</string>
-			<key>knownRegions</key>
-			<array>
-				<string>en</string>
-			</array>
-			<key>mainGroup</key>
-			<string>A8AC9FDB3A72AA5B95A9AA11</string>
-			<key>productRefGroup</key>
-			<string>119F7DBF6DC04C86F8343B2C</string>
-			<key>projectDirPath</key>
-			<string></string>
-			<key>projectReferences</key>
-			<array/>
-			<key>projectRoot</key>
-			<string></string>
-			<key>targets</key>
-			<array>
-				<string>CDA8BACE596A648B6D7A64BE</string>
-				<string>585CCA500AD6946F0BF41F9E</string>
-				<string>9B58101E29703F394300AE9A</string>
-			</array>
-		</dict>
-		<key>2AFC11C7A170A31F71655546</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.cfbundle</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>DZGeometryTools.bundle</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>2EC5AA6F3BC608EFD9224628</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>628E9C6EA11FD54E117CDEEF</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>306A8C5B7D5CCEC20E493AE6</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>428A91F817531FC89191D2AD</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>YES</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/Pods-DZGeometryTools-DZGeometryTools/Pods-DZGeometryTools-DZGeometryTools-prefix.pch</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.1</string>
-				<key>OTHER_CFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_CPLUSPLUSFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>3AEA4BFFB655FA09E4FB49CB</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>Pods-DZGeometryTools-DZGeometryTools-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>428A91F817531FC89191D2AD</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-DZGeometryTools-DZGeometryTools-Private.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>42D270DEB8A3002609D710D3</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>D98DC0CC8F17C85B73DE5047</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>486B9D2F14F450BBEF71BFC4</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>BCEEE1221C827C35DE2811A0</string>
-				<string>62F6F9EE473495E53B0ECE68</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>4E03C75EDFCFD03A37B4725E</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXResourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>54AB3282FFCF2296154ECFA3</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>Foundation.framework</string>
-			<key>path</key>
-			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework</string>
-			<key>sourceTree</key>
-			<string>DEVELOPER_DIR</string>
-		</dict>
-		<key>55C483C87A87CCD25563D18A</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>libPods-DZGeometryTools.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>572F9AC05A76E4EFFCADF84C</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>EE44BF6F9151D781467B600E</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>585CCA500AD6946F0BF41F9E</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>F1E466B0D451D52E63206503</string>
-			<key>buildPhases</key>
-			<array>
-				<string>005DB939F341E13169A69DED</string>
-				<string>572F9AC05A76E4EFFCADF84C</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>BFAC7071F509549390B85DA6</string>
-			</array>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Pods-DZGeometryTools</string>
-			<key>productName</key>
-			<string>Pods-DZGeometryTools</string>
-			<key>productReference</key>
-			<string>55C483C87A87CCD25563D18A</string>
-			<key>productType</key>
-			<string>com.apple.product-type.library.static</string>
-		</dict>
-		<key>628E9C6EA11FD54E117CDEEF</key>
-		<dict>
-			<key>fileRef</key>
-			<string>54AB3282FFCF2296154ECFA3</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>62F6F9EE473495E53B0ECE68</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>WRAPPER_EXTENSION</key>
-				<string>bundle</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>6AB9E635730B26438FC58CF0</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text</string>
-			<key>path</key>
-			<string>Pods-DZGeometryTools-acknowledgements.markdown</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>6B734D1DEF0922C6DAEA329C</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>B601DED6D8F0B5B4568DBF71</string>
-				<string>B202210EF2A454451DB86964</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>6BD127BAE2FF6AEB27AE0E7F</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>B715CB4C0C3C36154E850496</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>DZGeometryTools</string>
-			<key>path</key>
-			<string>../..</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>82AE184FA6A344B20F129732</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>6AB9E635730B26438FC58CF0</string>
-				<string>A08D155F972C9E129733589C</string>
-				<string>973F4ED213AB87843DB8137C</string>
-				<string>CB040563ECF2CB9799D7A3AC</string>
-				<string>0F6AB10FC564E2AC3E4D0DA3</string>
-				<string>B0B2FCF7EA72260FC4C7DDBD</string>
-				<string>88D2B33A7C271E2595527077</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pods-DZGeometryTools</string>
-			<key>path</key>
-			<string>Target Support Files/Pods-DZGeometryTools</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>88D2B33A7C271E2595527077</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-DZGeometryTools.release.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>973F4ED213AB87843DB8137C</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>Pods-DZGeometryTools-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9B58101E29703F394300AE9A</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>9CEC334DDD41C4E874380888</string>
-			<key>buildPhases</key>
-			<array>
-				<string>42D270DEB8A3002609D710D3</string>
-				<string>2EC5AA6F3BC608EFD9224628</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>1F225A96345EED8604279BAF</string>
-			</array>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Pods-DZGeometryTools-DZGeometryTools</string>
-			<key>productName</key>
-			<string>Pods-DZGeometryTools-DZGeometryTools</string>
-			<key>productReference</key>
-			<string>2283927DF086A947A45ED490</string>
-			<key>productType</key>
-			<string>com.apple.product-type.library.static</string>
-		</dict>
-		<key>9CEC334DDD41C4E874380888</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>D8894E8372C850D6DE815923</string>
-				<string>306A8C5B7D5CCEC20E493AE6</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>A08D155F972C9E129733589C</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Pods-DZGeometryTools-acknowledgements.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>A33A0B7B1A3B7B0224DC97E8</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>Pods-DZGeometryTools-DZGeometryTools-prefix.pch</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>A83D0FC28D8D7C63D1D7A7DA</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>82AE184FA6A344B20F129732</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Targets Support Files</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>A8AC9FDB3A72AA5B95A9AA11</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>E138487DF5BEC77586747A60</string>
-				<string>DD3265F8AEA5156D9BE904E5</string>
-				<string>0B9BAC611F9611832AFC7EF8</string>
-				<string>119F7DBF6DC04C86F8343B2C</string>
-				<string>A83D0FC28D8D7C63D1D7A7DA</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>AF42FBA8F96DF19A24A69A27</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>B0B2FCF7EA72260FC4C7DDBD</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-				<string>NO</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.1</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>B0B2FCF7EA72260FC4C7DDBD</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-DZGeometryTools.debug.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>B202210EF2A454451DB86964</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>NO</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>ENABLE_NS_ASSERTIONS</key>
-				<string>NO</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>RELEASE=1</string>
-				</array>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.1</string>
-				<key>STRIP_INSTALLED_PRODUCT</key>
-				<string>NO</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>B601DED6D8F0B5B4568DBF71</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>NO</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>YES</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-				<string>NO</string>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.1</string>
-				<key>ONLY_ACTIVE_ARCH</key>
-				<string>YES</string>
-				<key>STRIP_INSTALLED_PRODUCT</key>
-				<string>NO</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>B715CB4C0C3C36154E850496</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>1C93E0B04CC379FFC49BD699</string>
-				<string>428A91F817531FC89191D2AD</string>
-				<string>3AEA4BFFB655FA09E4FB49CB</string>
-				<string>A33A0B7B1A3B7B0224DC97E8</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Support Files</string>
-			<key>path</key>
-			<string>Example/Pods/Target Support Files/Pods-DZGeometryTools-DZGeometryTools</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>BCEEE1221C827C35DE2811A0</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>WRAPPER_EXTENSION</key>
-				<string>bundle</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>BFAC7071F509549390B85DA6</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>target</key>
-			<string>9B58101E29703F394300AE9A</string>
-			<key>targetProxy</key>
-			<string>C92E502839C7C91D0EC0D4AF</string>
-		</dict>
-		<key>C43EDBAF40DC8119F288E23E</key>
-		<dict>
-			<key>fileRef</key>
-			<string>973F4ED213AB87843DB8137C</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>C8D38377ADEDC247ADAA30DA</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>88D2B33A7C271E2595527077</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>YES</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.1</string>
-				<key>OTHER_CFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_CPLUSPLUSFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>C92E502839C7C91D0EC0D4AF</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>242F0D42899FC9186E20C070</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>9B58101E29703F394300AE9A</string>
-			<key>remoteInfo</key>
-			<string>Pods-DZGeometryTools-DZGeometryTools</string>
-		</dict>
-		<key>CB040563ECF2CB9799D7A3AC</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>Pods-DZGeometryTools-environment.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>CDA8BACE596A648B6D7A64BE</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>486B9D2F14F450BBEF71BFC4</string>
-			<key>buildPhases</key>
-			<array>
-				<string>E48801F0676F9169B35405A6</string>
-				<string>E6CF9356ACE01C247ECE13F0</string>
-				<string>4E03C75EDFCFD03A37B4725E</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>DZGeometryTools</string>
-			<key>productName</key>
-			<string>DZGeometryTools</string>
-			<key>productReference</key>
-			<string>2AFC11C7A170A31F71655546</string>
-			<key>productType</key>
-			<string>com.apple.product-type.bundle</string>
-		</dict>
-		<key>D8894E8372C850D6DE815923</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>428A91F817531FC89191D2AD</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/Pods-DZGeometryTools-DZGeometryTools/Pods-DZGeometryTools-DZGeometryTools-prefix.pch</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-				<string>NO</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.1</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>D98DC0CC8F17C85B73DE5047</key>
-		<dict>
-			<key>fileRef</key>
-			<string>3AEA4BFFB655FA09E4FB49CB</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>DD3265F8AEA5156D9BE904E5</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>6BD127BAE2FF6AEB27AE0E7F</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Development Pods</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E138487DF5BEC77586747A60</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text</string>
-			<key>name</key>
-			<string>Podfile</string>
-			<key>path</key>
-			<string>../Podfile</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-			<key>xcLanguageSpecificationIdentifier</key>
-			<string>xcode.lang.ruby</string>
-		</dict>
-		<key>E48801F0676F9169B35405A6</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>E6CF9356ACE01C247ECE13F0</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>EE44BF6F9151D781467B600E</key>
-		<dict>
-			<key>fileRef</key>
-			<string>54AB3282FFCF2296154ECFA3</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>F0D1C16564B13EFC1F321C3E</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>54AB3282FFCF2296154ECFA3</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>iOS</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>F1E466B0D451D52E63206503</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>AF42FBA8F96DF19A24A69A27</string>
-				<string>C8D38377ADEDC247ADAA30DA</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-	</dict>
-	<key>rootObject</key>
-	<string>242F0D42899FC9186E20C070</string>
-</dict>
-</plist>
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		243A24E999C746B424D0D0BD5E1DD2A4 /* DZDevices.h in Headers */ = {isa = PBXBuildFile; fileRef = A31C263FBBC5A5E35A83C886FA61C201 /* DZDevices.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2D698378EFC9A8E104EFEDBF1AB107C2 /* UIDeviceHardware.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BE17441F2A2F1853D9EBA9768EC18E2 /* UIDeviceHardware.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		4EBF88F570BBC7E72167C26BE8F1B5C0 /* Pods-DZGemoetry-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B300F8FE22DB3FF704025881E4C554E /* Pods-DZGemoetry-dummy.m */; };
+		712B715C1E4716B5B7F55E222745EE31 /* UIDeviceHardware.h in Headers */ = {isa = PBXBuildFile; fileRef = 24C8595EC12E338C16754D006E2FEF9B /* UIDeviceHardware.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9A8601EAEE7EDF1FCA7C2F9AD9B2C137 /* DZDevices.m in Sources */ = {isa = PBXBuildFile; fileRef = 81876CE3AC5C2E206051BAC86474D2A2 /* DZDevices.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		9BB72EC1F8FFC7E051F3DEEC6B126E44 /* DZGeometryTools-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 80851852D0CA3B0472ED66069C232831 /* DZGeometryTools-dummy.m */; };
+		BEB8BF71B52E6448CC7CF731BD4BE721 /* DZGeometryTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 405878E62A707A68836E87249CE53109 /* DZGeometryTools.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		C8BEBC6B09762331E6786940996D7237 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		D05568BC8BC3EE6B91691A4D8712C6F3 /* DZGeometryTools.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A3B80246C2804F677EC1279731B1F92 /* DZGeometryTools.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D2A3973BD9B9AAEA70BC7167CD19E3E5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1988098505C61A010F3100B9E5AE7C7F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C893C08045484C48AB4623C0463CE5AE;
+			remoteInfo = DZGeometryTools;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0703FA6CAED86E267CCC29B09CD2803A /* DZGeometryTools.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DZGeometryTools.xcconfig; sourceTree = "<group>"; };
+		0B300F8FE22DB3FF704025881E4C554E /* Pods-DZGemoetry-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DZGemoetry-dummy.m"; sourceTree = "<group>"; };
+		119AA46DEBFF8843EBBD79E7EFE92D19 /* libPods-DZGemoetry.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-DZGemoetry.a"; path = "libPods-DZGemoetry.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1ADC10D569B9929F094FDF0B2855213F /* Pods-DZGemoetry-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DZGemoetry-frameworks.sh"; sourceTree = "<group>"; };
+		24C8595EC12E338C16754D006E2FEF9B /* UIDeviceHardware.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = UIDeviceHardware.h; sourceTree = "<group>"; };
+		26E8CB6488E3C3C9F0D4CA6409B863FC /* Pods-DZGemoetry.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DZGemoetry.debug.xcconfig"; sourceTree = "<group>"; };
+		3889A81D1AEE8977C8A1335658ACE26E /* Pods-DZGemoetry-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DZGemoetry-resources.sh"; sourceTree = "<group>"; };
+		405878E62A707A68836E87249CE53109 /* DZGeometryTools.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DZGeometryTools.m; sourceTree = "<group>"; };
+		5EC10FBB793780DC83D442D15A41A834 /* Pods-DZGemoetry.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DZGemoetry.release.xcconfig"; sourceTree = "<group>"; };
+		7BE17441F2A2F1853D9EBA9768EC18E2 /* UIDeviceHardware.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = UIDeviceHardware.m; sourceTree = "<group>"; };
+		80851852D0CA3B0472ED66069C232831 /* DZGeometryTools-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DZGeometryTools-dummy.m"; sourceTree = "<group>"; };
+		81876CE3AC5C2E206051BAC86474D2A2 /* DZDevices.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DZDevices.m; sourceTree = "<group>"; };
+		8A3B80246C2804F677EC1279731B1F92 /* DZGeometryTools.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DZGeometryTools.h; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9F9448149482309DECC85F06854C0E01 /* Pods-DZGemoetry-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DZGemoetry-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A00AC69FE7C5C1C72B5F3597B9B75087 /* Pods-DZGemoetry-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DZGemoetry-acknowledgements.plist"; sourceTree = "<group>"; };
+		A31C263FBBC5A5E35A83C886FA61C201 /* DZDevices.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DZDevices.h; sourceTree = "<group>"; };
+		B6451F3550F9062B52E66DD8560A27EC /* libDZGeometryTools.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libDZGeometryTools.a; path = libDZGeometryTools.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB600F3CB8E9C71AF10AB82AD1468E1A /* DZGeometryTools-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DZGeometryTools-prefix.pch"; sourceTree = "<group>"; };
+		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3C09EFF30D607BE866BEBF82151FBEDD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8BEBC6B09762331E6786940996D7237 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C62BA73DBFB51CF8F3EB1237D9CBDDC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2A3973BD9B9AAEA70BC7167CD19E3E5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1CB7A495F2C839559CD017BEA723D16F /* Pods-DZGemoetry */ = {
+			isa = PBXGroup;
+			children = (
+				9F9448149482309DECC85F06854C0E01 /* Pods-DZGemoetry-acknowledgements.markdown */,
+				A00AC69FE7C5C1C72B5F3597B9B75087 /* Pods-DZGemoetry-acknowledgements.plist */,
+				0B300F8FE22DB3FF704025881E4C554E /* Pods-DZGemoetry-dummy.m */,
+				1ADC10D569B9929F094FDF0B2855213F /* Pods-DZGemoetry-frameworks.sh */,
+				3889A81D1AEE8977C8A1335658ACE26E /* Pods-DZGemoetry-resources.sh */,
+				26E8CB6488E3C3C9F0D4CA6409B863FC /* Pods-DZGemoetry.debug.xcconfig */,
+				5EC10FBB793780DC83D442D15A41A834 /* Pods-DZGemoetry.release.xcconfig */,
+			);
+			name = "Pods-DZGemoetry";
+			path = "Target Support Files/Pods-DZGemoetry";
+			sourceTree = "<group>";
+		};
+		1E941D7CF9BB212FE8A0CF4F26D0BCAC /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8F4315C8A7BC3A65FC760899E4123859 /* DZGeometryTools */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		62A6323E4F30743ACE10E8A97953C3F2 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0703FA6CAED86E267CCC29B09CD2803A /* DZGeometryTools.xcconfig */,
+				80851852D0CA3B0472ED66069C232831 /* DZGeometryTools-dummy.m */,
+				CB600F3CB8E9C71AF10AB82AD1468E1A /* DZGeometryTools-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/DZGeometryTools";
+			sourceTree = "<group>";
+		};
+		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				1E941D7CF9BB212FE8A0CF4F26D0BCAC /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				96DCD5F238B4E8E7B2D13DC471FA24F5 /* Products */,
+				AB0074E65F2F9A91392F6A1BEABA2968 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8F4315C8A7BC3A65FC760899E4123859 /* DZGeometryTools */ = {
+			isa = PBXGroup;
+			children = (
+				B077DCF4F8761DEC197E141316676866 /* Pod */,
+				62A6323E4F30743ACE10E8A97953C3F2 /* Support Files */,
+			);
+			name = DZGeometryTools;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		96DCD5F238B4E8E7B2D13DC471FA24F5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B6451F3550F9062B52E66DD8560A27EC /* libDZGeometryTools.a */,
+				119AA46DEBFF8843EBBD79E7EFE92D19 /* libPods-DZGemoetry.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AB0074E65F2F9A91392F6A1BEABA2968 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1CB7A495F2C839559CD017BEA723D16F /* Pods-DZGemoetry */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		B077DCF4F8761DEC197E141316676866 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				BA7917583173D34617CC6965D7631F02 /* Classes */,
+			);
+			name = Pod;
+			path = Pod;
+			sourceTree = "<group>";
+		};
+		BA7917583173D34617CC6965D7631F02 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				A31C263FBBC5A5E35A83C886FA61C201 /* DZDevices.h */,
+				81876CE3AC5C2E206051BAC86474D2A2 /* DZDevices.m */,
+				8A3B80246C2804F677EC1279731B1F92 /* DZGeometryTools.h */,
+				405878E62A707A68836E87249CE53109 /* DZGeometryTools.m */,
+				24C8595EC12E338C16754D006E2FEF9B /* UIDeviceHardware.h */,
+				7BE17441F2A2F1853D9EBA9768EC18E2 /* UIDeviceHardware.m */,
+			);
+			name = Classes;
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0589C3B81969B863E9CE78C988089231 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				243A24E999C746B424D0D0BD5E1DD2A4 /* DZDevices.h in Headers */,
+				D05568BC8BC3EE6B91691A4D8712C6F3 /* DZGeometryTools.h in Headers */,
+				712B715C1E4716B5B7F55E222745EE31 /* UIDeviceHardware.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		324701B950F8DC5746E30C2805F27B19 /* Pods-DZGemoetry */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0B256A75BB7CACC8C01ABA0838CECD88 /* Build configuration list for PBXNativeTarget "Pods-DZGemoetry" */;
+			buildPhases = (
+				0C841A09F9332713FCBC78D67773A1D9 /* Sources */,
+				3C09EFF30D607BE866BEBF82151FBEDD /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E8D67FC5AAF9794C2620AE9CEEB330C1 /* PBXTargetDependency */,
+			);
+			name = "Pods-DZGemoetry";
+			productName = "Pods-DZGemoetry";
+			productReference = 119AA46DEBFF8843EBBD79E7EFE92D19 /* libPods-DZGemoetry.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		C893C08045484C48AB4623C0463CE5AE /* DZGeometryTools */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66AC768EC251205CB760E08D3AEE3C5B /* Build configuration list for PBXNativeTarget "DZGeometryTools" */;
+			buildPhases = (
+				D3C707EBCBCB0A98A4185CF4718FB351 /* Sources */,
+				3C62BA73DBFB51CF8F3EB1237D9CBDDC /* Frameworks */,
+				0589C3B81969B863E9CE78C988089231 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DZGeometryTools;
+			productName = DZGeometryTools;
+			productReference = B6451F3550F9062B52E66DD8560A27EC /* libDZGeometryTools.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 96DCD5F238B4E8E7B2D13DC471FA24F5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C893C08045484C48AB4623C0463CE5AE /* DZGeometryTools */,
+				324701B950F8DC5746E30C2805F27B19 /* Pods-DZGemoetry */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0C841A09F9332713FCBC78D67773A1D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EBF88F570BBC7E72167C26BE8F1B5C0 /* Pods-DZGemoetry-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3C707EBCBCB0A98A4185CF4718FB351 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A8601EAEE7EDF1FCA7C2F9AD9B2C137 /* DZDevices.m in Sources */,
+				9BB72EC1F8FFC7E051F3DEEC6B126E44 /* DZGeometryTools-dummy.m in Sources */,
+				BEB8BF71B52E6448CC7CF731BD4BE721 /* DZGeometryTools.m in Sources */,
+				2D698378EFC9A8E104EFEDBF1AB107C2 /* UIDeviceHardware.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E8D67FC5AAF9794C2620AE9CEEB330C1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DZGeometryTools;
+			target = C893C08045484C48AB4623C0463CE5AE /* DZGeometryTools */;
+			targetProxy = 1988098505C61A010F3100B9E5AE7C7F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		006EB74C6C4E0D9348E225CDC38D5AE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0703FA6CAED86E267CCC29B09CD2803A /* DZGeometryTools.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/DZGeometryTools/DZGeometryTools-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		015A368F878AC3E2CEAE21DDE8026304 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		44CDBB6D11DE06DB64D6268622BDC47E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		59493B7ADC23856798976688C43BB9C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5EC10FBB793780DC83D442D15A41A834 /* Pods-DZGemoetry.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		7051CDF7B34B0C43F9317FAC8F9B344E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 26E8CB6488E3C3C9F0D4CA6409B863FC /* Pods-DZGemoetry.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		7DE2003A4031328288EA2209A9B33430 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0703FA6CAED86E267CCC29B09CD2803A /* DZGeometryTools.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/DZGeometryTools/DZGeometryTools-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0B256A75BB7CACC8C01ABA0838CECD88 /* Build configuration list for PBXNativeTarget "Pods-DZGemoetry" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7051CDF7B34B0C43F9317FAC8F9B344E /* Debug */,
+				59493B7ADC23856798976688C43BB9C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				015A368F878AC3E2CEAE21DDE8026304 /* Debug */,
+				44CDBB6D11DE06DB64D6268622BDC47E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		66AC768EC251205CB760E08D3AEE3C5B /* Build configuration list for PBXNativeTarget "DZGeometryTools" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7DE2003A4031328288EA2209A9B33430 /* Debug */,
+				006EB74C6C4E0D9348E225CDC38D5AE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
