@@ -1,5 +1,5 @@
 PODS:
-  - DZGeometryTools (1.1.7)
+  - DZGeometryTools (1.1.8)
 
 DEPENDENCIES:
   - DZGeometryTools (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  DZGeometryTools: cb233d721a9a6bddcc0b744b1fa3539354f66ae4
+  DZGeometryTools: 1688ee0bf1259e6a011fb1d9011eea4a38543408
 
 PODFILE CHECKSUM: 6dfd11e8f0475b34fb4da68543a367dec7938b7e
 
