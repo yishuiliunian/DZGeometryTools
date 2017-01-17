@@ -7,60 +7,97 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0FF51F30CA510AB3E95486923F5133D3 /* DZGeometryTools-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 80851852D0CA3B0472ED66069C232831 /* DZGeometryTools-dummy.m */; };
-		22528FB087A01F34F612AA540E547F57 /* DZGeometryTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F3FF2A82473F1140768038C044F5B84 /* DZGeometryTools.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		2BD8B36F2E024EA651AC8BE53E0789D0 /* DZGeometryTools.h in Headers */ = {isa = PBXBuildFile; fileRef = 327DB364014F589778DEA9AFC4EA5021 /* DZGeometryTools.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4EBF88F570BBC7E72167C26BE8F1B5C0 /* Pods-DZGemoetry-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B300F8FE22DB3FF704025881E4C554E /* Pods-DZGemoetry-dummy.m */; };
-		C8BEBC6B09762331E6786940996D7237 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
-		D59ACAABCE6E67FA4FC83C3CB820F3B5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
-		E10DD7F61E2DC58F00D8793C /* DZLayoutMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = E10DD7F51E2DC58F00D8793C /* DZLayoutMacros.h */; };
+		1603648513745E7DDD3980E7D44DC7BD /* DZGeometryTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 883BB019CEF54FD61023BC6AA269CA6A /* DZGeometryTools.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		3C8BDB7746A9AF4083511CFB8C684F55 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		405919E974DACFA470D54CEFD47C697D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		53E93443D03AF5F63197FA502B17213D /* UIDeviceHardware.h in Headers */ = {isa = PBXBuildFile; fileRef = 31BD58669B41A1B368B1A99D4439CCC9 /* UIDeviceHardware.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		58287708284515C597DAC069FEB92F62 /* DZDevices.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E9C7896167BB5E602E0453AE41EAFBA /* DZDevices.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5D0CF4357B0771666709D6D17F7D3B44 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		6C3570CA60CCEEB80DC33BD1BB03DF77 /* Pods-DZGemoetry-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B300F8FE22DB3FF704025881E4C554E /* Pods-DZGemoetry-dummy.m */; };
+		A5DBF5A32108C4BBBDF6C7A636F052DA /* DZLayoutMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = F33CB8BC72054366E70A76C6B91CD9A8 /* DZLayoutMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AAEC110DFC78B16FBB9E4BCAD4D19CCE /* DZDevices.m in Sources */ = {isa = PBXBuildFile; fileRef = EADC5A5067AA6B04EC6704FC03E2F54F /* DZDevices.m */; };
+		D49C0A2E5B24649322091EDA3A47A558 /* DZGeometryTools-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 80851852D0CA3B0472ED66069C232831 /* DZGeometryTools-dummy.m */; };
+		DF3F152164E1F2E6A453221EEA07E7ED /* DZGeometryTools.h in Headers */ = {isa = PBXBuildFile; fileRef = D8E695BE05ABD27DFF98F6E38117AD7D /* DZGeometryTools.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EF6169A94966F8B604A0556BD24FF6DF /* UIDeviceHardware.m in Sources */ = {isa = PBXBuildFile; fileRef = B346D907871E73D41CDFF1037D0E6CCF /* UIDeviceHardware.m */; };
+		F020F269DFDC1457385D8804A44084D8 /* DZDevices-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C19E4131BC903D09ADE90DA8FDBBB60 /* DZDevices-dummy.m */; };
+		F440319C846419CB6CF24BDB14CA4AF6 /* DZLayoutAngle.h in Headers */ = {isa = PBXBuildFile; fileRef = 410980DB1EA75BFE7BCB6259C54FAB9C /* DZLayoutAngle.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		1988098505C61A010F3100B9E5AE7C7F /* PBXContainerItemProxy */ = {
+		195A9A08027985C557BF776655D6C008 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = B9142F795DE176B1801EDA51475AE927;
+			remoteGlobalIDString = 9910639349E0FA399AAFBA0A9FF4D68B;
+			remoteInfo = DZDevices;
+		};
+		556C956CC11C0FDDBAF2F55F29FC52E9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC5142D0DB50034F979B20F73FCA5559;
 			remoteInfo = DZGeometryTools;
+		};
+		6BCDA4230A0D7B669296FEB4D81AA24C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9910639349E0FA399AAFBA0A9FF4D68B;
+			remoteInfo = DZDevices;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		0703FA6CAED86E267CCC29B09CD2803A /* DZGeometryTools.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DZGeometryTools.xcconfig; sourceTree = "<group>"; };
 		0B300F8FE22DB3FF704025881E4C554E /* Pods-DZGemoetry-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DZGemoetry-dummy.m"; sourceTree = "<group>"; };
-		119AA46DEBFF8843EBBD79E7EFE92D19 /* libPods-DZGemoetry.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DZGemoetry.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B3E551E4E2A5C7326875CCFE77C79D2 /* libDZGeometryTools.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libDZGeometryTools.a; path = libDZGeometryTools.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C19E4131BC903D09ADE90DA8FDBBB60 /* DZDevices-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DZDevices-dummy.m"; sourceTree = "<group>"; };
+		10DE0EA02F6B1FD7295734E1FB31BBE2 /* libDZDevices.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libDZDevices.a; path = libDZDevices.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		1ADC10D569B9929F094FDF0B2855213F /* Pods-DZGemoetry-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DZGemoetry-frameworks.sh"; sourceTree = "<group>"; };
 		26E8CB6488E3C3C9F0D4CA6409B863FC /* Pods-DZGemoetry.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DZGemoetry.debug.xcconfig"; sourceTree = "<group>"; };
-		327DB364014F589778DEA9AFC4EA5021 /* DZGeometryTools.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DZGeometryTools.h; sourceTree = "<group>"; };
+		31BD58669B41A1B368B1A99D4439CCC9 /* UIDeviceHardware.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UIDeviceHardware.h; path = Pod/Classes/UIDeviceHardware.h; sourceTree = "<group>"; };
+		37B8E216E5C5F7AE7AF98859F63359C6 /* libPods-DZGemoetry.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-DZGemoetry.a"; path = "libPods-DZGemoetry.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3889A81D1AEE8977C8A1335658ACE26E /* Pods-DZGemoetry-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DZGemoetry-resources.sh"; sourceTree = "<group>"; };
+		410980DB1EA75BFE7BCB6259C54FAB9C /* DZLayoutAngle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DZLayoutAngle.h; sourceTree = "<group>"; };
 		5EC10FBB793780DC83D442D15A41A834 /* Pods-DZGemoetry.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DZGemoetry.release.xcconfig"; sourceTree = "<group>"; };
-		6F3FF2A82473F1140768038C044F5B84 /* DZGeometryTools.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DZGeometryTools.m; sourceTree = "<group>"; };
+		7DEC3CB39431146DE12B0BA992C32C16 /* DZDevices-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DZDevices-prefix.pch"; sourceTree = "<group>"; };
 		80851852D0CA3B0472ED66069C232831 /* DZGeometryTools-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DZGeometryTools-dummy.m"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		816D896A10CCFBA3A47C4AEA505A176C /* DZDevices.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DZDevices.xcconfig; sourceTree = "<group>"; };
+		883BB019CEF54FD61023BC6AA269CA6A /* DZGeometryTools.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DZGeometryTools.m; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E9C7896167BB5E602E0453AE41EAFBA /* DZDevices.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DZDevices.h; path = Pod/Classes/DZDevices.h; sourceTree = "<group>"; };
 		9F9448149482309DECC85F06854C0E01 /* Pods-DZGemoetry-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DZGemoetry-acknowledgements.markdown"; sourceTree = "<group>"; };
 		A00AC69FE7C5C1C72B5F3597B9B75087 /* Pods-DZGemoetry-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DZGemoetry-acknowledgements.plist"; sourceTree = "<group>"; };
-		B6451F3550F9062B52E66DD8560A27EC /* libDZGeometryTools.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libDZGeometryTools.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		B346D907871E73D41CDFF1037D0E6CCF /* UIDeviceHardware.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = UIDeviceHardware.m; path = Pod/Classes/UIDeviceHardware.m; sourceTree = "<group>"; };
 		CB600F3CB8E9C71AF10AB82AD1468E1A /* DZGeometryTools-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DZGeometryTools-prefix.pch"; sourceTree = "<group>"; };
 		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		E10DD7F51E2DC58F00D8793C /* DZLayoutMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DZLayoutMacros.h; sourceTree = "<group>"; };
-		E10DD7F71E2DC5C600D8793C /* DZLayoutAngle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DZLayoutAngle.h; sourceTree = "<group>"; };
+		D8E695BE05ABD27DFF98F6E38117AD7D /* DZGeometryTools.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DZGeometryTools.h; sourceTree = "<group>"; };
+		EADC5A5067AA6B04EC6704FC03E2F54F /* DZDevices.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DZDevices.m; path = Pod/Classes/DZDevices.m; sourceTree = "<group>"; };
+		F33CB8BC72054366E70A76C6B91CD9A8 /* DZLayoutMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DZLayoutMacros.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		0AC444B5E6AF083D7965AD9AB3E7AE19 /* Frameworks */ = {
+		05A3863D69C216AA8DFB3DBEA9637A06 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D59ACAABCE6E67FA4FC83C3CB820F3B5 /* Foundation.framework in Frameworks */,
+				3C8BDB7746A9AF4083511CFB8C684F55 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3C09EFF30D607BE866BEBF82151FBEDD /* Frameworks */ = {
+		9504DF858BACE71802CA4BA4BFEB876C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C8BEBC6B09762331E6786940996D7237 /* Foundation.framework in Frameworks */,
+				5D0CF4357B0771666709D6D17F7D3B44 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F5513EA4C40F3ACFEDFB2DA647D9C96 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				405919E974DACFA470D54CEFD47C697D /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,6 +127,17 @@
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
+		3B9DCE993F557027EF60AE00FD088D20 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				816D896A10CCFBA3A47C4AEA505A176C /* DZDevices.xcconfig */,
+				0C19E4131BC903D09ADE90DA8FDBBB60 /* DZDevices-dummy.m */,
+				7DEC3CB39431146DE12B0BA992C32C16 /* DZDevices-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/DZDevices";
+			sourceTree = "<group>";
+		};
 		62A6323E4F30743ACE10E8A97953C3F2 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -115,7 +163,8 @@
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				1E941D7CF9BB212FE8A0CF4F26D0BCAC /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				96DCD5F238B4E8E7B2D13DC471FA24F5 /* Products */,
+				B23456690B12D364714376DCF853F3D8 /* Pods */,
+				BCAFA872F959007DD19925D5983D9481 /* Products */,
 				AB0074E65F2F9A91392F6A1BEABA2968 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -123,28 +172,36 @@
 		8F4315C8A7BC3A65FC760899E4123859 /* DZGeometryTools */ = {
 			isa = PBXGroup;
 			children = (
-				925859FBFCF6AD5BAB754FD2936CFAA8 /* Pod */,
+				ACE7AF3F1A30EBF48CC8D853DDE6C551 /* Pod */,
 				62A6323E4F30743ACE10E8A97953C3F2 /* Support Files */,
 			);
 			name = DZGeometryTools;
 			path = ../..;
 			sourceTree = "<group>";
 		};
-		925859FBFCF6AD5BAB754FD2936CFAA8 /* Pod */ = {
+		93302C8FCC325FBD58480674A0A4BDA7 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				D0A754AFEBE699288A660259053799DF /* Classes */,
+				D8E695BE05ABD27DFF98F6E38117AD7D /* DZGeometryTools.h */,
+				883BB019CEF54FD61023BC6AA269CA6A /* DZGeometryTools.m */,
+				410980DB1EA75BFE7BCB6259C54FAB9C /* DZLayoutAngle.h */,
+				F33CB8BC72054366E70A76C6B91CD9A8 /* DZLayoutMacros.h */,
 			);
-			path = Pod;
+			name = Classes;
+			path = Classes;
 			sourceTree = "<group>";
 		};
-		96DCD5F238B4E8E7B2D13DC471FA24F5 /* Products */ = {
+		A35282AC8F1A21014AE06F2738832FF2 /* DZDevices */ = {
 			isa = PBXGroup;
 			children = (
-				B6451F3550F9062B52E66DD8560A27EC /* libDZGeometryTools.a */,
-				119AA46DEBFF8843EBBD79E7EFE92D19 /* libPods-DZGemoetry.a */,
+				9E9C7896167BB5E602E0453AE41EAFBA /* DZDevices.h */,
+				EADC5A5067AA6B04EC6704FC03E2F54F /* DZDevices.m */,
+				31BD58669B41A1B368B1A99D4439CCC9 /* UIDeviceHardware.h */,
+				B346D907871E73D41CDFF1037D0E6CCF /* UIDeviceHardware.m */,
+				3B9DCE993F557027EF60AE00FD088D20 /* Support Files */,
 			);
-			name = Products;
+			name = DZDevices;
+			path = DZDevices;
 			sourceTree = "<group>";
 		};
 		AB0074E65F2F9A91392F6A1BEABA2968 /* Targets Support Files */ = {
@@ -155,6 +212,23 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
+		ACE7AF3F1A30EBF48CC8D853DDE6C551 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				93302C8FCC325FBD58480674A0A4BDA7 /* Classes */,
+			);
+			name = Pod;
+			path = Pod;
+			sourceTree = "<group>";
+		};
+		B23456690B12D364714376DCF853F3D8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A35282AC8F1A21014AE06F2738832FF2 /* DZDevices */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -163,64 +237,92 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		D0A754AFEBE699288A660259053799DF /* Classes */ = {
+		BCAFA872F959007DD19925D5983D9481 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				327DB364014F589778DEA9AFC4EA5021 /* DZGeometryTools.h */,
-				6F3FF2A82473F1140768038C044F5B84 /* DZGeometryTools.m */,
-				E10DD7F51E2DC58F00D8793C /* DZLayoutMacros.h */,
-				E10DD7F71E2DC5C600D8793C /* DZLayoutAngle.h */,
+				10DE0EA02F6B1FD7295734E1FB31BBE2 /* libDZDevices.a */,
+				0B3E551E4E2A5C7326875CCFE77C79D2 /* libDZGeometryTools.a */,
+				37B8E216E5C5F7AE7AF98859F63359C6 /* libPods-DZGemoetry.a */,
 			);
-			path = Classes;
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		0575F07965ABA01C5CF3FD4A498F604D /* Headers */ = {
+		225E5530E1F7048109A9ABB8B246B65B /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2BD8B36F2E024EA651AC8BE53E0789D0 /* DZGeometryTools.h in Headers */,
-				E10DD7F61E2DC58F00D8793C /* DZLayoutMacros.h in Headers */,
+				DF3F152164E1F2E6A453221EEA07E7ED /* DZGeometryTools.h in Headers */,
+				F440319C846419CB6CF24BDB14CA4AF6 /* DZLayoutAngle.h in Headers */,
+				A5DBF5A32108C4BBBDF6C7A636F052DA /* DZLayoutMacros.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B53178148B221824608E3F9F57CCBD93 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58287708284515C597DAC069FEB92F62 /* DZDevices.h in Headers */,
+				53E93443D03AF5F63197FA502B17213D /* UIDeviceHardware.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		324701B950F8DC5746E30C2805F27B19 /* Pods-DZGemoetry */ = {
+		9910639349E0FA399AAFBA0A9FF4D68B /* DZDevices */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0B256A75BB7CACC8C01ABA0838CECD88 /* Build configuration list for PBXNativeTarget "Pods-DZGemoetry" */;
+			buildConfigurationList = E2CE321551E46141DFE5B7B3CDCB2BAD /* Build configuration list for PBXNativeTarget "DZDevices" */;
 			buildPhases = (
-				0C841A09F9332713FCBC78D67773A1D9 /* Sources */,
-				3C09EFF30D607BE866BEBF82151FBEDD /* Frameworks */,
+				8AFB8096852DC45F858E894159F4CBC0 /* Sources */,
+				9504DF858BACE71802CA4BA4BFEB876C /* Frameworks */,
+				B53178148B221824608E3F9F57CCBD93 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				E8D67FC5AAF9794C2620AE9CEEB330C1 /* PBXTargetDependency */,
 			);
-			name = "Pods-DZGemoetry";
-			productName = "Pods-DZGemoetry";
-			productReference = 119AA46DEBFF8843EBBD79E7EFE92D19 /* libPods-DZGemoetry.a */;
+			name = DZDevices;
+			productName = DZDevices;
+			productReference = 10DE0EA02F6B1FD7295734E1FB31BBE2 /* libDZDevices.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		B9142F795DE176B1801EDA51475AE927 /* DZGeometryTools */ = {
+		CC5142D0DB50034F979B20F73FCA5559 /* DZGeometryTools */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DE9D2384DB432C68EDC8F9906B9945F7 /* Build configuration list for PBXNativeTarget "DZGeometryTools" */;
+			buildConfigurationList = 670440D02D7F7D5A02E8A8C8E2CE6D93 /* Build configuration list for PBXNativeTarget "DZGeometryTools" */;
 			buildPhases = (
-				1DB595C11E73ED10416C1AABDFC4E321 /* Sources */,
-				0AC444B5E6AF083D7965AD9AB3E7AE19 /* Frameworks */,
-				0575F07965ABA01C5CF3FD4A498F604D /* Headers */,
+				CC9462C4D652BF0EEF266C21634A79B5 /* Sources */,
+				9F5513EA4C40F3ACFEDFB2DA647D9C96 /* Frameworks */,
+				225E5530E1F7048109A9ABB8B246B65B /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				985201F8BBAC87DD0D7C01B8841977A7 /* PBXTargetDependency */,
 			);
 			name = DZGeometryTools;
 			productName = DZGeometryTools;
-			productReference = B6451F3550F9062B52E66DD8560A27EC /* libDZGeometryTools.a */;
+			productReference = 0B3E551E4E2A5C7326875CCFE77C79D2 /* libDZGeometryTools.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		CCA7591E6BD353464B64A2750E2EA82B /* Pods-DZGemoetry */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 336AD152DE1BC9EE04956861D1410CB4 /* Build configuration list for PBXNativeTarget "Pods-DZGemoetry" */;
+			buildPhases = (
+				45989E90B8E06C6D363229E4919EF5C1 /* Sources */,
+				05A3863D69C216AA8DFB3DBEA9637A06 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF859B4640B8E0D2BFAA52BD774C511B /* PBXTargetDependency */,
+				FFB3C4BE2C94933D959258DE33FB1F1D /* PBXTargetDependency */,
+			);
+			name = "Pods-DZGemoetry";
+			productName = "Pods-DZGemoetry";
+			productReference = 37B8E216E5C5F7AE7AF98859F63359C6 /* libPods-DZGemoetry.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -240,42 +342,65 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 96DCD5F238B4E8E7B2D13DC471FA24F5 /* Products */;
+			productRefGroup = BCAFA872F959007DD19925D5983D9481 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B9142F795DE176B1801EDA51475AE927 /* DZGeometryTools */,
-				324701B950F8DC5746E30C2805F27B19 /* Pods-DZGemoetry */,
+				9910639349E0FA399AAFBA0A9FF4D68B /* DZDevices */,
+				CC5142D0DB50034F979B20F73FCA5559 /* DZGeometryTools */,
+				CCA7591E6BD353464B64A2750E2EA82B /* Pods-DZGemoetry */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		0C841A09F9332713FCBC78D67773A1D9 /* Sources */ = {
+		45989E90B8E06C6D363229E4919EF5C1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4EBF88F570BBC7E72167C26BE8F1B5C0 /* Pods-DZGemoetry-dummy.m in Sources */,
+				6C3570CA60CCEEB80DC33BD1BB03DF77 /* Pods-DZGemoetry-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1DB595C11E73ED10416C1AABDFC4E321 /* Sources */ = {
+		8AFB8096852DC45F858E894159F4CBC0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0FF51F30CA510AB3E95486923F5133D3 /* DZGeometryTools-dummy.m in Sources */,
-				22528FB087A01F34F612AA540E547F57 /* DZGeometryTools.m in Sources */,
+				F020F269DFDC1457385D8804A44084D8 /* DZDevices-dummy.m in Sources */,
+				AAEC110DFC78B16FBB9E4BCAD4D19CCE /* DZDevices.m in Sources */,
+				EF6169A94966F8B604A0556BD24FF6DF /* UIDeviceHardware.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC9462C4D652BF0EEF266C21634A79B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D49C0A2E5B24649322091EDA3A47A558 /* DZGeometryTools-dummy.m in Sources */,
+				1603648513745E7DDD3980E7D44DC7BD /* DZGeometryTools.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		E8D67FC5AAF9794C2620AE9CEEB330C1 /* PBXTargetDependency */ = {
+		985201F8BBAC87DD0D7C01B8841977A7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DZDevices;
+			target = 9910639349E0FA399AAFBA0A9FF4D68B /* DZDevices */;
+			targetProxy = 195A9A08027985C557BF776655D6C008 /* PBXContainerItemProxy */;
+		};
+		EF859B4640B8E0D2BFAA52BD774C511B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DZDevices;
+			target = 9910639349E0FA399AAFBA0A9FF4D68B /* DZDevices */;
+			targetProxy = 6BCDA4230A0D7B669296FEB4D81AA24C /* PBXContainerItemProxy */;
+		};
+		FFB3C4BE2C94933D959258DE33FB1F1D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = DZGeometryTools;
-			target = B9142F795DE176B1801EDA51475AE927 /* DZGeometryTools */;
-			targetProxy = 1988098505C61A010F3100B9E5AE7C7F /* PBXContainerItemProxy */;
+			target = CC5142D0DB50034F979B20F73FCA5559 /* DZGeometryTools */;
+			targetProxy = 556C956CC11C0FDDBAF2F55F29FC52E9 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -324,30 +449,7 @@
 			};
 			name = Debug;
 		};
-		306A796A515C48827EB8C8BFBEF57908 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0703FA6CAED86E267CCC29B09CD2803A /* DZGeometryTools.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/DZGeometryTools/DZGeometryTools-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		4196B959D776B776327B99147685B143 /* Release */ = {
+		1B3D0FB873BFE4A0A08ED480A565571B /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 0703FA6CAED86E267CCC29B09CD2803A /* DZGeometryTools.xcconfig */;
 			buildSettings = {
@@ -365,6 +467,75 @@
 				PRIVATE_HEADERS_FOLDER_PATH = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		35C69287A21C90BF3AEE943F60ED00D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 816D896A10CCFBA3A47C4AEA505A176C /* DZDevices.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/DZDevices/DZDevices-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		383B5E7820214075A9081A848FB49E9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 26E8CB6488E3C3C9F0D4CA6409B863FC /* Pods-DZGemoetry.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		38E7ACC8D7CC29C3AC5C9E83E4A34643 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5EC10FBB793780DC83D442D15A41A834 /* Pods-DZGemoetry.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 			};
@@ -410,9 +581,9 @@
 			};
 			name = Release;
 		};
-		59493B7ADC23856798976688C43BB9C6 /* Release */ = {
+		CF140C91939ED0C5494DC862472D66B4 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5EC10FBB793780DC83D442D15A41A834 /* Pods-DZGemoetry.release.xcconfig */;
+			baseConfigurationReference = 816D896A10CCFBA3A47C4AEA505A176C /* DZDevices.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -420,22 +591,22 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MACH_O_TYPE = staticlib;
+				GCC_PREFIX_HEADER = "Target Support Files/DZDevices/DZDevices-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 			};
 			name = Release;
 		};
-		7051CDF7B34B0C43F9317FAC8F9B344E /* Debug */ = {
+		FC32AB60DF466543A20FA671B0A78830 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 26E8CB6488E3C3C9F0D4CA6409B863FC /* Pods-DZGemoetry.debug.xcconfig */;
+			baseConfigurationReference = 0703FA6CAED86E267CCC29B09CD2803A /* DZGeometryTools.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -443,14 +614,14 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MACH_O_TYPE = staticlib;
+				GCC_PREFIX_HEADER = "Target Support Files/DZGeometryTools/DZGeometryTools-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 			};
@@ -459,15 +630,6 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0B256A75BB7CACC8C01ABA0838CECD88 /* Build configuration list for PBXNativeTarget "Pods-DZGemoetry" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				7051CDF7B34B0C43F9317FAC8F9B344E /* Debug */,
-				59493B7ADC23856798976688C43BB9C6 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -477,11 +639,29 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DE9D2384DB432C68EDC8F9906B9945F7 /* Build configuration list for PBXNativeTarget "DZGeometryTools" */ = {
+		336AD152DE1BC9EE04956861D1410CB4 /* Build configuration list for PBXNativeTarget "Pods-DZGemoetry" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				306A796A515C48827EB8C8BFBEF57908 /* Debug */,
-				4196B959D776B776327B99147685B143 /* Release */,
+				383B5E7820214075A9081A848FB49E9D /* Debug */,
+				38E7ACC8D7CC29C3AC5C9E83E4A34643 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		670440D02D7F7D5A02E8A8C8E2CE6D93 /* Build configuration list for PBXNativeTarget "DZGeometryTools" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC32AB60DF466543A20FA671B0A78830 /* Debug */,
+				1B3D0FB873BFE4A0A08ED480A565571B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E2CE321551E46141DFE5B7B3CDCB2BAD /* Build configuration list for PBXNativeTarget "DZDevices" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35C69287A21C90BF3AEE943F60ED00D4 /* Debug */,
+				CF140C91939ED0C5494DC862472D66B4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

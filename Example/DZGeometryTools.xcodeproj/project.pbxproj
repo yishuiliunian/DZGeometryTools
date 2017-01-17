@@ -16,9 +16,6 @@
 		653912F819EE4D0600676D2A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 653912F619EE4D0600676D2A /* LaunchScreen.xib */; };
 		6539130419EE4D0600676D2A /* DZGemoetryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6539130319EE4D0600676D2A /* DZGemoetryTests.m */; };
 		6539131319EE4D2C00676D2A /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 6539130C19EE4D2C00676D2A /* .gitkeep */; };
-		6539131419EE4D2C00676D2A /* DZDevices.m in Sources */ = {isa = PBXBuildFile; fileRef = 6539130E19EE4D2C00676D2A /* DZDevices.m */; };
-		6539131519EE4D2C00676D2A /* DZGeometryTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 6539131019EE4D2C00676D2A /* DZGeometryTools.m */; };
-		6539131619EE4D2C00676D2A /* UIDeviceHardware.m in Sources */ = {isa = PBXBuildFile; fileRef = 6539131219EE4D2C00676D2A /* UIDeviceHardware.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -271,6 +268,7 @@
 				TargetAttributes = {
 					653912E419EE4D0600676D2A = {
 						CreatedOnToolsVersion = 6.0;
+						DevelopmentTeam = R4S4R7Q4ZH;
 					};
 					653912FC19EE4D0600676D2A = {
 						CreatedOnToolsVersion = 6.0;
@@ -346,7 +344,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run \'pod install\' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		677CF3AC45CF4F806701DB89 /* [CP] Embed Pods Frameworks */ = {
@@ -372,11 +370,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				653912F019EE4D0600676D2A /* ViewController.m in Sources */,
-				6539131519EE4D2C00676D2A /* DZGeometryTools.m in Sources */,
 				653912ED19EE4D0600676D2A /* AppDelegate.m in Sources */,
-				6539131619EE4D2C00676D2A /* UIDeviceHardware.m in Sources */,
 				653912EA19EE4D0600676D2A /* main.m in Sources */,
-				6539131419EE4D2C00676D2A /* DZDevices.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -504,6 +499,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
+				DEVELOPMENT_TEAM = R4S4R7Q4ZH;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -523,6 +519,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
+				DEVELOPMENT_TEAM = R4S4R7Q4ZH;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				INFOPLIST_FILE = DZGemoetry/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
@@ -593,6 +590,7 @@
 				6539130619EE4D0600676D2A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6539130A19EE4D0600676D2A /* Build configuration list for PBXNativeTarget "DZGemoetryTests" */ = {
 			isa = XCConfigurationList;
@@ -601,6 +599,7 @@
 				6539130819EE4D0600676D2A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
