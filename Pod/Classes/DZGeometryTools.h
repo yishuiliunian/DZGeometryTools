@@ -8,69 +8,19 @@
 
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
+#import <DZDevices.h>
+#import "DZLayoutMacros.h"
+#import "DZLayoutAngle.h"
 
-//角度转化
-
-/**
- 将弧度表示转化为角度表示
-
- @param x 弧度
- @return 对应的角度
- */
-#define DEGREE_TO_ANGLE(x) (x / 180.0f * M_PI)
-
-
-/**
- 将角度表示转化为弧度表示
-
- @param x 角度
- @return 对应的弧度
- */
-#define ANGLE_TO_DEGREE(x) (x * 180.0f / M_PI)
-
-//
-
-
-/* 返回View的宽度 */
-#define CGRectViewWidth (CGRectGetWidth(self.bounds))
-
-
-/**
- 返回View的高度
- */
-#define CGRectViewHeight CGRectGetHeight(self.bounds)
-
-
-/**
- 返回UIViewController的rootView的宽度
- //
- 在新版本中废弃
- */
-#define CGRectVCWidth (CGRectGetWidth(self.view.bounds))
-
-/**
- 返回UIViewController的rootView的高度
- //
- 在新版本中废弃
- */
-#define CGRectVCHeight CGRectGetHeight(self.view.bounds)
-
-
-/**
- 返回UIViewController的rootView的宽度
- */
-#define CGRectGetViewControllerWidth (CGRectGetWidth(self.view.frame))
-
-/**
- 返回UIViewController的rootView的高度
- */
-#define CGRectGetViewControllerHeight (CGRectGetHeight(self.view.frame))
+#define bDEVICE_MACHINE_SCREEN_1136 (CGSizeEqualToSize([[UIScreen mainScreen].currentMode size], CGSizeMake(640, 1136)))
+#define bDEVICE_MACHINE_SCREEN_960 (CGSizeEqualToSize([[UIScreen mainScreen].currentMode size], CGSizeMake(640, 960)))
+#define CGRectLoadViewFrame (bDEVICE_OSVERSION_EQUAL_OR_LATER7?[[UIScreen mainScreen] applicationFrame]:[UIScreen mainScreen].bounds)
 
 #ifdef __cplusplus
 extern "C"
 {
 #endif
-    
+
 
 #pragma mark Point Functions
     /**
@@ -81,7 +31,78 @@ extern "C"
      @return 两个点之间的距离
      */
     float CGDistanceBetweenPoints(CGPoint p1, CGPoint p2);
+    
+    
+    /**
+     在指定的Point基础上施加偏移
+     
+     @param p1 原始的Point
+     @param p2 需要施加的偏移量
+     @return 施加偏移之后的新Point
+     */
+    CGPoint CGPointSubtraction(CGPoint p1, CGPoint p2);
+    
+    
+
+    
 #pragma mark Size Functions
+    
+    /**
+     @return 当前设备的屏幕大小
+     */
+    CGSize CGCurrentScreenSize();
+    
+    
+    
+    /**
+     在指定的Size基础上施加偏移
+     
+     @param originSize 原始的Size
+     @param aimSize 偏移量
+     @return 施加偏移之后的size
+     */
+    CGSize CGSizeScaleToSize(CGSize originSize, CGSize aimSize);
+    
+    
+    
+    
+    /**
+     在指定的Size基础上进行缩放
+     
+     @param size 原始的Size
+     @param scale 需要缩放的比例
+     @return 缩放之后的Size
+     */
+    CGSize CGSizeScale(CGSize size, CGFloat scale);
+    
+    
+    
+    /**
+     对size按照宽度进行缩放
+     
+     @param size 原始size
+     @param width 目标size的宽度
+     @return 目标size
+     */
+    CGSize CGSizeAlignWidth(CGSize size, CGFloat width);
+    
+    
+    
+    /**
+     对size按照高度进行缩放
+     
+     @param size 原始size
+     @param height 目标size的高度
+     @return 目标size
+     */
+    CGSize CGSizeAlignHeight(CGSize size, CGFloat height);
+    
+    /**
+     Cell初始化的时候的默认布局大小
+     
+     @return Cell的默认布局大小
+     */
+    
     
 #pragma mark Rect Functions
     /**
@@ -105,28 +126,6 @@ extern "C"
      */
     CGRect CGRectUseEdge(CGRect parent, UIEdgeInsets edge);
     
-    
-    /**
-     以制定的中心点为中心进行三维变化
-
-     @param t 原始的三维变化
-     @param center 中心店
-     @param disZ z轴偏移
-     @return 计算好的三维变化
-     */
-    CATransform3D CATransform3DPerspect(CATransform3D t, CGPoint center, float disZ);
-    
-    
-    /**
-     以制定的中心点为中心对标砖转化进行三维转化
-
-     @param center 中心点
-     @param disZ z轴偏移
-     @return 计算好的三维变化
-     */
-    CATransform3D CATransform3DMakePerspective(CGPoint center, float disZ);
-    
-    
     /**
      *  减去一个指定的大小，并返回计算后的区域
      *
@@ -138,7 +137,17 @@ extern "C"
     CGRect CGRectCenterSubSize(CGRect rect, CGSize size);
     
     
-
+    
+    
+    /**
+     
+     计算一个Size在Rect中的居中对齐的位置
+     
+     @param rect 父区域
+     @param size 需要布局的区域大小
+     @return 目标size在父区域中的位置
+     */
+    CGRect CGRectOfCenterForContainsSize(CGRect rect , CGSize size);
     
     /**
      计算并返回一个区域的中心点坐标
@@ -150,77 +159,8 @@ extern "C"
     
     
     /**
-     在指定的Point基础上施加偏移
-
-     @param p1 原始的Point
-     @param p2 需要施加的偏移量
-     @return 施加偏移之后的新Point
-     */
-    CGPoint CGPointSubtraction(CGPoint p1, CGPoint p2);
-    
-    
-    /**
-     在指定的Size基础上施加偏移
-
-     @param originSize 原始的Size
-     @param aimSize 偏移量
-     @return 施加偏移之后的size
-     */
-    CGSize CGSizeScaleToSize(CGSize originSize, CGSize aimSize);
-    
-    
-    /**
-     在指定的Size基础上进行缩放
-
-     @param size 原始的Size
-     @param scale 需要缩放的比例
-     @return 缩放之后的Size
-     */
-    CGSize CGSizeScale(CGSize size, CGFloat scale);
-    
-    /**
-     
-     计算一个Size在Rect中的居中对齐的位置
-
-     @param rect 父区域
-     @param size 需要布局的区域大小
-     @return 目标size在父区域中的位置
-     */
-    CGRect CGRectOfCenterForContainsSize(CGRect rect , CGSize size);
-    
-    
-    /**
-     一个index是否在Range范围之内
-
-     @param range 区域
-     @param index 坐标
-     @return  一个index是否在Range范围之内
-     */
-    BOOL NSRangeCotainsIndex(NSRange range, NSInteger index);
-    //
-    
-    
-    /**
-     打印一个Rect
-     */
-    void LogCGRect(NSString* prefix, CGRect rect);
-    
-    
-    /**
-     打印一个Point
-     */
-    void LogCGPoint(NSString* prefix, CGPoint point);
-    
-    
-    /**
-     打印一个Size
-     */
-    void LogCGSize(NSString* prefix, CGSize point);
-
-    
-    /**
      以指定坐标为重点点向四周扩展指定大小，计算并得到区域位置
-
+     
      @param pint 中心点坐标
      @param aimSize 目标区域大小
      @return 目标区域坐标
@@ -229,23 +169,8 @@ extern "C"
     
     
     /**
-     @return 当前设备的屏幕大小
-     */
-    CGSize CGCurrentScreenSize();
-    
-    
-    /**
-     @return 当前屏幕是否支持Retina技术
-     */
-    BOOL CGScrrentIsRetina();
-    
-    
-
-    
-    
-    /**
      对指定区域实施y轴方向上的偏移
-
+     
      @param rect 原始区域
      @param height 偏移量
      @return 目标区域
@@ -255,7 +180,7 @@ extern "C"
     
     /**
      对目标区域实施x轴方向上的偏移
-
+     
      @param rect 原始区域
      @param width 偏移量
      @return 目标区域
@@ -314,36 +239,12 @@ extern "C"
      */
     CGRect CGRectBottomRightCorner(CGRect originRect,  CGSize size);
     
-    
-    /**
-     对size按照宽度进行缩放
 
-     @param size 原始size
-     @param width 目标size的宽度
-     @return 目标size
-     */
-    CGSize CGSizeAlignWidth(CGSize size, CGFloat width);
-    
-    
-    
-    /**
-     对size按照高度进行缩放
 
-     @param size 原始size
-     @param height 目标size的高度
-     @return 目标size
-     */
-    CGSize CGSizeAlignHeight(CGSize size, CGFloat height);
-    
-    /**
-     Cell初始化的时候的默认布局大小
-
-     @return Cell的默认布局大小
-     */
     
 #define CGRectDefaultCell CGRectInitialCell()
     CGRect CGRectInitialCell();
-   static  inline CGRect CGRectAlignInterge(CGRect rect) {
+    static  inline CGRect CGRectAlignInterge(CGRect rect) {
         CGRect aimRect = rect;
         aimRect.size.width = floor(rect.size.width);
         aimRect.size.height = floor(rect.size.height);
@@ -352,7 +253,71 @@ extern "C"
         return aimRect;
     }
     
-#pragma mark -------DEPRECATED-------
+    
+#pragma mark Transform Functions
+    
+    /**
+     以制定的中心点为中心进行三维变化
+
+     @param t 原始的三维变化
+     @param center 中心店
+     @param disZ z轴偏移
+     @return 计算好的三维变化
+     */
+    CATransform3D CATransform3DPerspect(CATransform3D t, CGPoint center, float disZ);
+    
+    
+    /**
+     以制定的中心点为中心对标砖转化进行三维转化
+
+     @param center 中心点
+     @param disZ z轴偏移
+     @return 计算好的三维变化
+     */
+    CATransform3D CATransform3DMakePerspective(CGPoint center, float disZ);
+    
+    
+    /**
+     一个index是否在Range范围之内
+
+     @param range 区域
+     @param index 坐标
+     @return  一个index是否在Range范围之内
+     */
+    BOOL NSRangeCotainsIndex(NSRange range, NSInteger index);
+    //
+    
+    
+    /**
+     打印一个Rect
+     */
+    void LogCGRect(NSString* prefix, CGRect rect);
+    
+    
+    /**
+     打印一个Point
+     */
+    void LogCGPoint(NSString* prefix, CGPoint point);
+    
+    
+    /**
+     打印一个Size
+     */
+    void LogCGSize(NSString* prefix, CGSize point);
+
+    
+
+    
+    
+
+    /**
+     @return 当前屏幕是否支持Retina技术
+     */
+    BOOL CGScrrentIsRetina();
+    
+    
+
+#pragma mark -------DEPRECATED!!!!!!-------
     /**
      *  打印一个CGRect
      *
@@ -411,78 +376,4 @@ extern "C"
 }
 #endif
 
-#define CGRectSetX(rect, x) CGRectMake(x, CGRectGetMinY(rect), CGRectGetWidth(rect), CGRectGetHeight(rect));
-#define CGRectSetY(rect, y) CGRectMake(CGRectGetMinX(rect), y, CGRectGetWidth(rect), CGRectGetHeight(rect));
-#define CGRectSetWidth(rect, width) CGRectMake(x , y, width , CGRectGetHeight(rect));
-#define CGRectSetHeight(rect, height) CGRectMake(x, y, CGRectGetWidth(rect), width);
-
-#define LAYOUT_View_Frame(view, x, y , width, height) view.frame = CGRectMake(x,y, width, height)
-#define LAYOUT_SubView_Fill(view) view.frame = self.bounds
-
-
-#define MARGIN_LEFT left
-#define MARGIN_RIGHT right
-#define MARGIN_ALL all
-
-
-#define MARGIN_NAME_X(subfix) margin_x_##subfix
-#define MARGIN_NAME_Y(subfix) margin_y_##subfix
-
-
-#define MARGIN_NAME_X_ALL MARGIN_NAME_X(MARGIN_X_ALL)
-
-
-#define LAYOUT_DEFINE_MARGIN_X(subfix, x) static float MARGIN_NAME_X(subfix)  = x
-#define LAYOUT_DEFINE_MARGIN_Y(subfix, y) static float MARGIN_NAME_Y(subfix)  = y
-#define LAYOUT_DEFINE_MARGIN_X_ALL(x) LAYOUT_DEFINE_MARGIN_X(MARGIN_ALL,x)
-#define LAYOUT_DEFINE_MARGIN_Y_ALL(x) LAYOUT_DEFINE_MARGIN_Y(MARGIN_ALL,x)
-
-
-#define LAYOUT_RECT_ORIGIN_RELY_MIN_X(rect, view, margin_x) rect.origin.x = CGRectGetMinX(view.frame) + margin_x
-#define LAYOUT_RECT_ORIGIN_RELY_MAX_X(rect, view, margin_x) rect.origin.x = CGRectGetMaxX(view.frame) + margin_x
-#define LAYOUT_RECT_ORIGIN_RELY_MIN_Y(rect, view, margin_y) rect.origin.y = CGRectGetMinY(view.frame) + margin_y
-#define LAYOUT_RECT_ORIGIN_RELY_MAX_Y(rect, view, margin_y) rect.origin.y = CGRectGetMaxY(view.frame) + margin_y
-
-
-#define LAYOUT_VIEW_RELY_MAX_X_Y(view, xRV, xMargin,yRV, yMargin,  width_, height_) CGRect rect##view = CGRectZero;\
-LAYOUT_RECT_ORIGIN_RELY_MAX_X(rect##view, xRV, xMargin);\
-LAYOUT_RECT_ORIGIN_RELY_MAX_Y(rect##view, yRV, yMargin);\
-rect##view.size.width = width_;\
-rect##view.size.height = height_;
-
-
-//y依赖于顶部元素，并且尽可能填充满width的布局
-#define LAYOUT_SUBVIEW_FILL_WIDTH_RELY_MAX_Y(view, supView, xMargin, yRV, yMargin, height__) CGRect rect##view = CGRectZero;\
-LAYOUT_RECT_ORIGIN_RELY_MAX_Y(rect##view, yRV, yMargin);\
-rect##view.size.width = CGRectGetWidth(supView.frame) - xMargin*2;\
-rect##view.origin.x = xMargin;\
-rect##view.size.height = height__;\
-view.frame = rect##view;
-
-#define LAYOUT_VIEW_FILL_WIDTH_RELY_MAX_Y(view, xMargin, yRV, yMargin, height__)\
-LAYOUT_SUBVIEW_FILL_WIDTH_RELY_MAX_Y(view, self, xMargin, yRV, yMargin, height__)
-
-//顶部固定高度，铺满width的布局
-#define LAYOUT_VIEW_TOP_FILL_WIDTH(view, sView__, xMargin, yMargin, refHeight__)  CGRect rect##view = CGRectZero;\
-rect##view.origin.x = xMargin;\
-rect##view.origin.y = yMargin;\
-rect##view.size.width = CGRectGetWidth(sView__.bounds) - xMargin*2;\
-rect##view.size.height = refHeight__ - yMargin;\
-view.frame = rect##view;
-
-#define LAYOUT_SUBVIEW_TOP_FILL_WIDTH(view, xMargin, yMargin, refHeight__)  LAYOUT_VIEW_TOP_FILL_WIDTH(view, self, xMargin, yMargin, refHeight__)
-
-
-
-//顶部固定高度，铺满width的布局
-#define LAYOUT_VIEW_BOTTOM_FILL_WIDTH(view, sView__, xMargin, yMargin, refHeight__)  CGRect rect##view = CGRectZero;\
-rect##view.origin.x = xMargin;\
-rect##view.origin.y = CGRectGetHeight(sView__.bounds) - refHeight__;\
-rect##view.size.width = CGRectGetWidth(sView__.bounds) - xMargin*2;\
-rect##view.size.height = refHeight__ - yMargin;\
-view.frame = rect##view;
-
-#define LAYOUT_SUBVIEW_BOTTOM_FILL_WIDTH(view, xMargin, yMargin, refHeight__)  LAYOUT_VIEW_BOTTOM_FILL_WIDTH(view, self, xMargin, yMargin, refHeight__)
-
-#define LAYOUT_SUBVIEW_CENTER(view, refSV, xMargin ,yMargin)  view.frame = CGRectCenter(refSV.bounds, CGSizeMake(CGRectGetWidth(refSV.bounds) - xMargin*2,CGRectGetHeight(refSV.bounds) - yMargin*2));
 

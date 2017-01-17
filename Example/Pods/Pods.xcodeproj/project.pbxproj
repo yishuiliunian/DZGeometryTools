@@ -13,6 +13,7 @@
 		4EBF88F570BBC7E72167C26BE8F1B5C0 /* Pods-DZGemoetry-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B300F8FE22DB3FF704025881E4C554E /* Pods-DZGemoetry-dummy.m */; };
 		C8BEBC6B09762331E6786940996D7237 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
 		D59ACAABCE6E67FA4FC83C3CB820F3B5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		E10DD7F61E2DC58F00D8793C /* DZLayoutMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = E10DD7F51E2DC58F00D8793C /* DZLayoutMacros.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,7 +29,7 @@
 /* Begin PBXFileReference section */
 		0703FA6CAED86E267CCC29B09CD2803A /* DZGeometryTools.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DZGeometryTools.xcconfig; sourceTree = "<group>"; };
 		0B300F8FE22DB3FF704025881E4C554E /* Pods-DZGemoetry-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DZGemoetry-dummy.m"; sourceTree = "<group>"; };
-		119AA46DEBFF8843EBBD79E7EFE92D19 /* libPods-DZGemoetry.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-DZGemoetry.a"; path = "libPods-DZGemoetry.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		119AA46DEBFF8843EBBD79E7EFE92D19 /* libPods-DZGemoetry.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DZGemoetry.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1ADC10D569B9929F094FDF0B2855213F /* Pods-DZGemoetry-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DZGemoetry-frameworks.sh"; sourceTree = "<group>"; };
 		26E8CB6488E3C3C9F0D4CA6409B863FC /* Pods-DZGemoetry.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DZGemoetry.debug.xcconfig"; sourceTree = "<group>"; };
 		327DB364014F589778DEA9AFC4EA5021 /* DZGeometryTools.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DZGeometryTools.h; sourceTree = "<group>"; };
@@ -36,12 +37,14 @@
 		5EC10FBB793780DC83D442D15A41A834 /* Pods-DZGemoetry.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DZGemoetry.release.xcconfig"; sourceTree = "<group>"; };
 		6F3FF2A82473F1140768038C044F5B84 /* DZGeometryTools.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DZGeometryTools.m; sourceTree = "<group>"; };
 		80851852D0CA3B0472ED66069C232831 /* DZGeometryTools-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DZGeometryTools-dummy.m"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9F9448149482309DECC85F06854C0E01 /* Pods-DZGemoetry-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DZGemoetry-acknowledgements.markdown"; sourceTree = "<group>"; };
 		A00AC69FE7C5C1C72B5F3597B9B75087 /* Pods-DZGemoetry-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DZGemoetry-acknowledgements.plist"; sourceTree = "<group>"; };
-		B6451F3550F9062B52E66DD8560A27EC /* libDZGeometryTools.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libDZGeometryTools.a; path = libDZGeometryTools.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6451F3550F9062B52E66DD8560A27EC /* libDZGeometryTools.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libDZGeometryTools.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB600F3CB8E9C71AF10AB82AD1468E1A /* DZGeometryTools-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DZGeometryTools-prefix.pch"; sourceTree = "<group>"; };
 		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		E10DD7F51E2DC58F00D8793C /* DZLayoutMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DZLayoutMacros.h; sourceTree = "<group>"; };
+		E10DD7F71E2DC5C600D8793C /* DZLayoutAngle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DZLayoutAngle.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,7 +135,6 @@
 			children = (
 				D0A754AFEBE699288A660259053799DF /* Classes */,
 			);
-			name = Pod;
 			path = Pod;
 			sourceTree = "<group>";
 		};
@@ -166,8 +168,9 @@
 			children = (
 				327DB364014F589778DEA9AFC4EA5021 /* DZGeometryTools.h */,
 				6F3FF2A82473F1140768038C044F5B84 /* DZGeometryTools.m */,
+				E10DD7F51E2DC58F00D8793C /* DZLayoutMacros.h */,
+				E10DD7F71E2DC5C600D8793C /* DZLayoutAngle.h */,
 			);
-			name = Classes;
 			path = Classes;
 			sourceTree = "<group>";
 		};
@@ -179,6 +182,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2BD8B36F2E024EA651AC8BE53E0789D0 /* DZGeometryTools.h in Headers */,
+				E10DD7F61E2DC58F00D8793C /* DZLayoutMacros.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
