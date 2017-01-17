@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
-#import <DZDevices.h>
+#import <DZDevices/DZDevices.h>
 #import "DZLayoutMacros.h"
 #import "DZLayoutAngle.h"
 
