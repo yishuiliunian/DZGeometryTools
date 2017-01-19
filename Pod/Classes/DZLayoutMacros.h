@@ -108,7 +108,7 @@ view.frame = rect##view;
 
 
 
-//顶部固定高度，铺满width的布局
+//底部固定高度，铺满width的布局
 #define LAYOUT_VIEW_BOTTOM_FILL_WIDTH(view, sView__, xMargin, yMargin, refHeight__)  CGRect rect##view = CGRectZero;\
 rect##view.origin.x = xMargin;\
 rect##view.origin.y = CGRectGetHeight(sView__.bounds) - refHeight__;\
